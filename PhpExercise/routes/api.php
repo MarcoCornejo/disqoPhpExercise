@@ -19,4 +19,4 @@ Route::post('notes', 'NoteController@store');
 Route::put('notes/{note}', 'NoteController@update');
 Route::delete('notes/{note}', 'NoteController@delete');
 
-Route::post(register, 'Auth\RegisterController@register');
+Route::post('register', 'Auth\RegisterController@register');
